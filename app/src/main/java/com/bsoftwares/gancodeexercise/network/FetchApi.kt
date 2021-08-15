@@ -4,7 +4,7 @@ import com.bsoftwares.fetchrewardscodingexercise.model.Data
 import kotlinx.coroutines.Deferred
 import retrofit2.http.GET
 
-interface FetchApi {
+interface MoviesApi {
     @GET("hiring.json")
     fun getData() : Deferred<List<Data>>
 }
