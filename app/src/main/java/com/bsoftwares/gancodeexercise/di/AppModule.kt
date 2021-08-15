@@ -1,10 +1,8 @@
 package com.bsoftwares.fetchrewardscodingexercise.di
 
-import com.bsoftwares.fetchrewardscodingexercise.network.FetchApi
 import com.bsoftwares.fetchrewardscodingexercise.network.MoviesApi
 import com.bsoftwares.fetchrewardscodingexercise.repo.Repository
 import com.bsoftwares.fetchrewardscodingexercise.repo.RepositoryInterface
-import com.bsoftwares.fetchrewardscodingexercise.utils.BASE_URL
 import com.bsoftwares.gancodeexercise.utils.BASE_URL
 import com.jakewharton.retrofit2.adapter.kotlin.coroutines.CoroutineCallAdapterFactory
 import dagger.Module
